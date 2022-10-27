@@ -65,7 +65,7 @@
             >;
         };
 
-        left_layer {
+        symbols_layer {
             bindings = <
  &kp EXCLAMATION     &kp AT_SIGN   &kp HASH        &kp DOLLAR        &kp PERCENT       &kp CARET         &kp AMPERSAND           &kp ASTERISK         &kp NUM_9          &kp NUM_0
        &kp MINUS  &kp UNDERSCORE  &kp GRAVE  &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES       &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
@@ -74,7 +74,7 @@
             >;
         };
 
-        right_layer {
+        numbers_layer {
             bindings = <
  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none   &kp PRCT       &kp CRRT           &none        &kp KMLT   &kp LPRN  &kp RPRN
  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp ESC  &kp ENTER       &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kp BKSP

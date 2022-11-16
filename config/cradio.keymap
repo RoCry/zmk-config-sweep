@@ -9,8 +9,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 &mt {
-    //  flavor = "tap-preferred";
-    // tapping_term_ms = <200>;
+    flavor = "tap-preferred";
+    tapping_term_ms = <200>;
 };
 
 / {
@@ -59,10 +59,10 @@
 
         default_layer {
             bindings = <
-  &kp Q   &kp W   &kp E           &kp R      &kp T            &kp Y             &kp U      &kp I       &kp O          &kp P
-  &kp A   &kp S   &kp D           &kp F      &kp G            &kp H             &kp J      &kp K       &kp L  &kp SEMICOLON
-  &kp Z   &kp X   &kp C           &kp V      &kp B            &kp N             &kp M  &kp COMMA  &kp PERIOD      &kp SLASH
-                         &mt LGUI ENTER  &kp SPACE  &lt 1 BACKSPACE  &mt LEFT_ALT TAB
+  &kp Q   &kp W       &kp E      &kp R        &kp T            &kp Y      &kp U        &kp I       &kp O       &lt 3 P
+  &lt 2 A &kp LCTRL S &mt LGUI D &mt LSHIFT F &mt LALT G       &mt RALT H &mt RSHIFT J &mt RGUI K  &mt RCTRL L &lt 2 SEMI
+  &kp Z   &kp X       &kp C      &kp V        &kp B            &kp N      &kp M        &kp COMMA   &kp PERIOD  &kp SLASH
+                            &mt LGUI RET  &kp SPACE            &lt 1 BSPC &mt LALT TAB
             >;
         };
 
@@ -76,6 +76,15 @@
         };
 
         numbers_layer {
+            bindings = <
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none   &kp PRCT       &kp CRRT           &none           &none       &none       &none
+ &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp ESC  &kp ENTER       &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW   &kp RIGHT    &kp BKSP
+ &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp TAB  &kp BACKSPACE      &kp DELETE           &none       &none       &none
+                                              &kp ENTER  &kp SPACE  &kp BACKSPACE         &kp TAB
+            >;
+        };
+
+        control_layer {
             bindings = <
  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none   &kp PRCT       &kp CRRT           &none      &bt BT_CLR  &bt BT_PRV  &bt BT_NXT
  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp ESC  &kp ENTER       &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW   &kp RIGHT    &kp BKSP

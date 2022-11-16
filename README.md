@@ -1,1 +1,1 @@
-# zmk-config
+# zmk-config for sweep+nice!nano

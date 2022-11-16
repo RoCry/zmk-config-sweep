@@ -77,7 +77,7 @@
 
         numbers_layer {
             bindings = <
- &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none   &kp PRCT       &kp CRRT           &none        &kp KMLT  &bt BT_PRV  &bt BT_NXT
+ &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &none   &kp PRCT       &kp CRRT           &none      &bt BT_CLR  &bt BT_PRV  &bt BT_NXT
  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6       &kp ESC  &kp ENTER       &kp LEFT  &kp DOWN_ARROW  &kp DOWN_ARROW   &kp RIGHT    &kp BKSP
  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0    &kp TAB  &kp BACKSPACE      &kp DELETE           &none       &none       &none
                                               &kp ENTER  &kp SPACE  &kp BACKSPACE         &kp TAB

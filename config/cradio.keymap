@@ -47,6 +47,11 @@
             bindings = <&kp C_VOL_UP>;
             key-positions = <29 28>;
         };
+
+        new_combo {
+            bindings = <&kp BACKSPACE>;
+            key-positions = <3 4>;
+        };
     };
 
     macros {

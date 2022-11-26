@@ -38,17 +38,17 @@
             bindings = <&kp ESC>;
         };
 
-        vol_down {
+        combo_vol_down {
             bindings = <&kp C_VOL_DN>;
             key-positions = <28 27>;
         };
 
-        vol_up {
+        combo_vol_up {
             bindings = <&kp C_VOL_UP>;
             key-positions = <29 28>;
         };
 
-        new_combo {
+        combo_bspc {
             bindings = <&kp BACKSPACE>;
             key-positions = <3 4>;
         };

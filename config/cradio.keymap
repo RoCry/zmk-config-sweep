@@ -4,6 +4,12 @@
 
 &mt {
     tapping-term-ms = <200>;
+    quick-tap-ms = <190>;
+};
+
+&lt {
+    tapping-term-ms = <200>;
+    quick-tap-ms = <190>;
 };
 
 / {

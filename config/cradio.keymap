@@ -10,23 +10,23 @@
 / {
     behaviors {
         llt: layer_tap {
-            compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP";
+            compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <190>;
-            global-quick-tap;
+            # global-quick-tap;
             bindings = <&mo>, <&kp>;
         };
         ht: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
             label = "TAP_HOLD";
+            compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
             quick-tap-ms = <190>;
-            global-quick-tap;
+            # global-quick-tap;
             bindings = <&kp>, <&kp>;
         };
     };
